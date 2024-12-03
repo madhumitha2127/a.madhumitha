@@ -18,4 +18,8 @@ if st.session_state['guessed']<7:
 else:
     st.write("SORRY,YOU FAILED.THE NUMBER WAS: ",st.session_state['value_to_guessed'])     
     if st.button("PLAY AGAIN"):
+        
         st.session_state['guessed']=1
+
+
+
